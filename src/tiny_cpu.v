@@ -1,3 +1,7 @@
+`timescale 1ns / 1ps
+`include "alu.v"
+`include "rom.v"
+
 module tiny_cpu (
     input        clk,
     input        rst_n,
