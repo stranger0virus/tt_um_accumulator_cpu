@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module rom (
     input  [3:0] addr,
     output reg [7:0] instr
